@@ -1,3 +1,12 @@
-print('Test for single quotes..')
-print("Test for Double quotes..")
-print(''' Test fot triple quotes ''')
+# print('Test for single quotes..')
+# print("Test for Double quotes..")
+# print(''' Test fot triple quotes ''')
+
+# Type casting
+
+a = 5
+b= "2"
+c=10
+
+print(a/b)
+

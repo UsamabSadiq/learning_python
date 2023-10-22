@@ -1,20 +1,31 @@
-# print('Test for single quotes..')
-# print("Test for Double quotes..")
-# print(''' Test fot triple quotes ''')
+# import time
 
-# Type casting
+# # print(time.time())
+# # print(time.ctime())
 
-# a = 5
-# b= "2"
-# c=10
 
-# print(a/b)
+# for i in range(4):
+	
+# 	# using sleep() to halt execution
+# 	# time.sleep(3)
+# 	print(i)
 
-# names = "usamaisa good boy"
-# print(len(names))
 
-# names = "usama is a !!!!!! good boy $$$"
-# print(names.split(' '))
+# # using simple format of showing time
+# s = time.strftime("%a, %d %b %Y %H:%M:%S") 
+# print(s)
 
-password = "        "
-print(password.isspace())
+x = int(input('Enter any Number: '))
+
+match x:
+    case _ if x < 20:
+        print('value is Less than 20')
+    case _ if x > 20:
+        print('value is Greater than 20')
+    case _ if x == 20:
+        print('value is 20')
+    case _:
+        print(x)
+
+
+
